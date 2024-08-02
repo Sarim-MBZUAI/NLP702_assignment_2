@@ -1,0 +1,198 @@
+{
+    "os": "Linux-5.15.133-ql-generic-13.0-9-x86_64-with-glibc2.35",
+    "python": "3.12.1",
+    "heartbeatAt": "2024-08-02T11:54:30.321797",
+    "startedAt": "2024-08-02T11:54:29.497724",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 3.891187500000002,
+        "min": 2200.0,
+        "max": 3900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.618,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3.9,
+            "min": 2200.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1.0,
+            "used": 0.042064666748046875
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 62.65229034423828
+    }
+}

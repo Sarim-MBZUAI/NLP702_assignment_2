@@ -1,0 +1,10 @@
+
+Using device: cuda
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of unique intents: 0
+Evaluating before fine-tuning...
+Input shapes: {'input_ids': torch.Size([16, 512]), 'attention_mask': torch.Size([16, 512]), 'labels': torch.Size([16])}
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Evaluating:   0%|          | 0/10533 [00:00<?, ?it/s]

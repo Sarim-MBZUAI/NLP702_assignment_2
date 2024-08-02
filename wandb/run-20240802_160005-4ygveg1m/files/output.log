@@ -1,0 +1,8 @@
+
+Using device: cuda
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/torch/nn/init.py:453: UserWarning: Initializing zero-element tensors is a no-op
+  warnings.warn("Initializing zero-element tensors is a no-op")
+Evaluating before fine-tuning...
+Evaluating:   0%|          | 0/10533 [00:01<?, ?it/s]

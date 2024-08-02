@@ -1,0 +1,538 @@
+2024-08-02 16:19:13,277 INFO    StreamThr :1798934 [internal.py:wandb_internal():85] W&B internal server running at pid: 1798934, started at: 2024-08-02 16:19:13.276560
+2024-08-02 16:19:13,277 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status
+2024-08-02 16:19:13,279 INFO    WriterThread:1798934 [datastore.py:open_for_write():87] open: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/run-yqqpl1wc.wandb
+2024-08-02 16:19:13,280 DEBUG   SenderThread:1798934 [sender.py:send():379] send: header
+2024-08-02 16:19:13,281 DEBUG   SenderThread:1798934 [sender.py:send():379] send: run
+2024-08-02 16:19:13,886 INFO    SenderThread:1798934 [dir_watcher.py:__init__():211] watching files in: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files
+2024-08-02 16:19:13,886 INFO    SenderThread:1798934 [sender.py:_start_run_threads():1188] run started: yqqpl1wc with start time 1722601153.277368
+2024-08-02 16:19:13,892 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: check_version
+2024-08-02 16:19:13,892 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: check_version
+2024-08-02 16:19:13,964 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: run_start
+2024-08-02 16:19:14,001 DEBUG   HandlerThread:1798934 [system_info.py:__init__():26] System info init
+2024-08-02 16:19:14,001 DEBUG   HandlerThread:1798934 [system_info.py:__init__():41] System info init done
+2024-08-02 16:19:14,001 INFO    HandlerThread:1798934 [system_monitor.py:start():194] Starting system monitor
+2024-08-02 16:19:14,001 INFO    SystemMonitor:1798934 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-02 16:19:14,001 INFO    HandlerThread:1798934 [system_monitor.py:probe():214] Collecting system info
+2024-08-02 16:19:14,002 INFO    SystemMonitor:1798934 [interfaces.py:start():188] Started cpu monitoring
+2024-08-02 16:19:14,002 INFO    SystemMonitor:1798934 [interfaces.py:start():188] Started disk monitoring
+2024-08-02 16:19:14,003 INFO    SystemMonitor:1798934 [interfaces.py:start():188] Started gpu monitoring
+2024-08-02 16:19:14,003 INFO    SystemMonitor:1798934 [interfaces.py:start():188] Started memory monitoring
+2024-08-02 16:19:14,003 INFO    SystemMonitor:1798934 [interfaces.py:start():188] Started network monitoring
+2024-08-02 16:19:14,042 DEBUG   HandlerThread:1798934 [system_info.py:probe():152] Probing system
+2024-08-02 16:19:14,044 DEBUG   HandlerThread:1798934 [gitlib.py:_init_repo():56] git repository is invalid
+2024-08-02 16:19:14,044 DEBUG   HandlerThread:1798934 [system_info.py:probe():200] Probing system done
+2024-08-02 16:19:14,044 DEBUG   HandlerThread:1798934 [system_monitor.py:probe():223] {'os': 'Linux-5.15.133-ql-generic-13.0-9-x86_64-with-glibc2.35', 'python': '3.12.1', 'heartbeatAt': '2024-08-02T12:19:14.042239', 'startedAt': '2024-08-02T12:19:13.269154', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 3.904906250000002, 'min': 2200.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 4.058, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.58, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 4.102, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}, {'current': 3.9, 'min': 2200.0, 'max': 3900.0}], 'disk': {'/': {'total': 1.0, 'used': 0.042064666748046875}}, 'gpu': 'NVIDIA GeForce RTX 4090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4090', 'memory_total': 25757220864}], 'memory': {'total': 62.65229034423828}}
+2024-08-02 16:19:14,044 INFO    HandlerThread:1798934 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-02 16:19:14,044 INFO    HandlerThread:1798934 [system_monitor.py:probe():227] Publishing system info
+2024-08-02 16:19:14,045 DEBUG   HandlerThread:1798934 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-02 16:19:14,046 ERROR   HandlerThread:1798934 [system_info.py:_save_conda():223] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/site-packages/wandb/sdk/internal/system/system_info.py", line 216, in _save_conda
+    subprocess.call(
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 389, in call
+    with Popen(*popenargs, **kwargs) as p:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/sarim.hashmi/anaconda3/envs/AI702/lib/python3.12/subprocess.py", line 1950, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2024-08-02 16:19:14,047 DEBUG   HandlerThread:1798934 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-02 16:19:14,048 INFO    HandlerThread:1798934 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-02 16:19:14,054 DEBUG   SenderThread:1798934 [sender.py:send():379] send: files
+2024-08-02 16:19:14,055 INFO    SenderThread:1798934 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-08-02 16:19:14,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-02 16:19:14,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: python_packages
+2024-08-02 16:19:14,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:19:14,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:14,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:19:14,572 DEBUG   SenderThread:1798934 [sender.py:send():379] send: telemetry
+2024-08-02 16:19:14,888 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/requirements.txt
+2024-08-02 16:19:14,888 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/conda-environment.yaml
+2024-08-02 16:19:14,888 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/wandb-metadata.json
+2024-08-02 16:19:15,066 INFO    wandb-upload_0:1798934 [upload_job.py:push():130] Uploaded file /tmp/slurm-sarim.hashmi-35398/tmp8axbqwfrwandb/la6zow27-wandb-metadata.json
+2024-08-02 16:19:15,233 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:16,373 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:17,425 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:18,467 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:18,572 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:19,972 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:21,802 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:22,797 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:24,237 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:24,244 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:25,238 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:27,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:28,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:29,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:19:29,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:19:29,576 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:29,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:30,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:31,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:32,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:33,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:34,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:35,005 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:35,075 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:35,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:36,619 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:37,006 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:37,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:38,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:39,007 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:39,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:40,141 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:40,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:41,008 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:41,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:42,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:43,008 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:43,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:44,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:19:44,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:19:44,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:45,009 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:45,300 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:45,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:46,009 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/config.yaml
+2024-08-02 16:19:46,620 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:47,010 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:47,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:48,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:49,011 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:49,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:50,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:50,660 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:51,012 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:51,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:52,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:53,012 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:53,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:54,621 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:55,013 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:55,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:55,824 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:19:56,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:57,014 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:57,622 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:58,622 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:19:59,015 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:19:59,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:19:59,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:19:59,622 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:00,622 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:00,980 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:01,016 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:01,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:02,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:03,016 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:03,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:04,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:05,017 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:05,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:06,127 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:06,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:07,018 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:07,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:08,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:09,019 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:09,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:10,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:11,020 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:11,270 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:11,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:12,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:13,021 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:13,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:14,003 DEBUG   SystemMonitor:1798934 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-02 16:20:14,004 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:20:14,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:20:14,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:20:14,623 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:15,021 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:15,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:16,427 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:16,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:17,022 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:17,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:18,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:19,023 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:19,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:20,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:21,024 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:21,578 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:21,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:22,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:23,025 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:23,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:24,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:25,026 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:25,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:26,624 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:26,739 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:27,027 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:27,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:28,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:29,028 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:29,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:20:29,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:20:29,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:30,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:31,029 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:31,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:31,890 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:32,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:33,029 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:33,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:34,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:35,030 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:35,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:36,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:37,031 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:37,054 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:37,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:38,625 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:39,032 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:39,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:40,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:41,033 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:41,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:42,127 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:42,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:43,034 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:43,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:44,005 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:20:44,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:20:44,231 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:20:44,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:45,034 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:45,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:46,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:47,035 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:47,280 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:47,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:48,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:49,036 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:49,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:50,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:51,037 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:51,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:52,356 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:52,626 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:53,037 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:53,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:54,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:55,038 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:55,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:56,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:57,039 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:57,515 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:20:57,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:58,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:20:59,040 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:20:59,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:20:59,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:20:59,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:00,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:01,041 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:01,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:02,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:02,662 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:03,042 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:03,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:04,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:05,043 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:05,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:06,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:07,043 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:07,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:07,830 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:08,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:09,044 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:09,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:10,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:11,045 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:11,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:12,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:12,985 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:13,046 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:13,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:14,005 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:21:14,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:21:14,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:21:14,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:15,047 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:15,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:16,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:17,048 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:17,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:18,141 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:18,628 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:19,049 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:19,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:20,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:21,049 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:21,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:22,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:23,050 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:23,305 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:23,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:24,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:25,051 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:25,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:26,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:27,051 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:27,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:28,464 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:28,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:29,052 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:29,231 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:21:29,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:21:29,629 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:30,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:31,053 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:31,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:32,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:33,054 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:33,627 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:33,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:34,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:35,055 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:35,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:36,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:37,056 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:37,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:38,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:38,784 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:39,057 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:39,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:40,630 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:41,057 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:41,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:42,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:43,058 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:43,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:43,917 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:44,006 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:21:44,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:21:44,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:21:44,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:45,059 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:45,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:46,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:47,060 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:47,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:48,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:49,061 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:49,071 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:49,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:50,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:51,062 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:51,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:52,631 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:53,062 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:53,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:54,230 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:54,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:55,063 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:55,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:56,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:57,064 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:57,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:58,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:21:59,065 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:21:59,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:21:59,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:21:59,542 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:21:59,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:00,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:01,066 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:01,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:02,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:03,067 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:03,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:04,563 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:04,632 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:05,068 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:05,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:06,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:07,069 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:07,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:08,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:09,069 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:09,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:09,717 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:10,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:11,070 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:11,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:12,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:13,071 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:13,633 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:14,006 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:22:14,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:22:14,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:22:14,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:14,735 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:15,072 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:15,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:16,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:17,073 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:17,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:18,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:19,074 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:19,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:19,763 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:20,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:21,075 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:21,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:22,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:23,076 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:23,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:24,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:24,791 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:25,077 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:25,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:26,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:27,077 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:27,634 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:28,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:29,078 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:29,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:22:29,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:22:29,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:29,822 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:30,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:31,079 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:31,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:32,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:33,080 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:33,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:34,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:34,854 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:35,081 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:35,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:36,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:37,082 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:37,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:38,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:39,083 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:39,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:39,894 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:40,635 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:41,083 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:41,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:42,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:43,084 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:43,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:44,007 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:22:44,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:22:44,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:22:44,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:44,938 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:45,085 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:45,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:46,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:47,086 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:47,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:48,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:49,086 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:49,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:49,967 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:50,088 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:50,636 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:51,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:52,088 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:52,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:53,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:54,089 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:54,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:55,005 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:22:55,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:56,090 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:56,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:57,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:58,090 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:22:58,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:22:59,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:22:59,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:22:59,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:00,041 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:00,091 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:00,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:01,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:02,092 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:02,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:03,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:04,093 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:04,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:05,077 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:05,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:06,094 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:06,637 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:07,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:08,095 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:08,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:09,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:10,095 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:10,116 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:10,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:11,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:12,096 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:12,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:13,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:14,007 DEBUG   SenderThread:1798934 [sender.py:send():379] send: stats
+2024-08-02 16:23:14,097 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:14,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:23:14,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:23:14,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:15,150 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:15,638 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:16,097 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:16,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:17,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:18,098 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:18,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:19,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:20,099 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:20,183 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:20,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:21,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:22,099 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:22,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:23,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:24,100 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:24,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:25,209 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:25,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:26,101 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:26,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:27,639 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:28,102 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:28,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:29,232 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-02 16:23:29,232 DEBUG   SenderThread:1798934 [sender.py:send_request():406] send_request: stop_status
+2024-08-02 16:23:29,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:30,102 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:30,249 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:30,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:31,641 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:32,103 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:32,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:33,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:34,104 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:34,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:35,285 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:35,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:36,105 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:36,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:37,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:38,105 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:38,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:39,640 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:40,106 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:40,326 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: status_report
+2024-08-02 16:23:40,641 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:41,641 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-02 16:23:42,107 INFO    Thread-12 :1798934 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sarim.hashmi/Downloads/NLP-702_assignment/wandb/run-20240802_161913-yqqpl1wc/files/output.log
+2024-08-02 16:23:42,641 DEBUG   HandlerThread:1798934 [handler.py:handle_request():158] handle_request: internal_messages
